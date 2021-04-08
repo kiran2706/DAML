@@ -19,7 +19,7 @@ def run():
     image_office = Image.open('employee_leave.jpg')
     st.image(image,use_column_width=True)
     add_selectbox = st.sidebar.selectbox(
-    "How would you  to predict?",
+    "How would you like to predict?",
     ("Online", "Batch"))
     st.sidebar.info('This app is created to predict if an employee will leave the company')
     st.sidebar.success('https://www.pycaret.org')
